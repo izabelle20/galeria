@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#849cb0;
+}
+
+.header img{
+    float: left;
+    margin: -20px;
+}
+
+.header h1{
+    float: center;
+    margin: 10px;
+}
+
+.header{
+    background-color: #2f3c71;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 40px;
+    border-bottom: 4px solid #8c7cb4;
+}
+
+.Galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.Galeria img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Galeria::after{
+    content: "";
+    width: 350px;
+}
+
